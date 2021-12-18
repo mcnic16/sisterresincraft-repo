@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+/*-------------------------body*/
+
+*{
+  margin: 0;
+  padding: 0;
+}
+body {
+	 height: 900px;
+      width: 100%;
+      padding: 50px;
+    color: #FFF;
+    text-shadow: 1px 1px 1px #333;
+    background-image: linear-gradient( 135deg, #9f05ff69 10%, #fd5e086b 100%);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    }
+
+    header img {
+      border-radius: 8px;
+      position: absolute;
+    top: 1%;
+    left: 1%;
+    border: 8px solid #fff;
+    }
+
+    .businessname {
+      top: 2%;
+      left: 25%;
+      text-align: center;
+      font-family: 'Pacifico', cursive;
+      position: absolute;
+      }
+      .businessname h1 {
+        font-size: 70px;
+      }
+      .search-bar {
+        text-align: right;
+        top: 20%;
+        position: relative;
+     }
+
+     nav {
+      display: flex;
+      padding 2% 6%;
+      justify-content: space-between;
+      align-items: center;
+      
+    }
+      
+    .navlinks {
+      flex: 2;
+      text-align: center;
+      margin-top: 3%;
+      margin-right: 8%;
+   }
+  
+   .navlinks ul li {
+     list-style: none;
+     display: inline-block;
+     padding: 8px 7px;
+     
+   }
+  
+   .navlinks ul li a{
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 5px 16px;
+    text-decoration: none;
+    font-size: 28px ;
+    
+    
+  }
+  .navlinks ul li:hover {
+    background-color: purple;
+    transition: 1s;
+  }
+  
+     .welcome-message {
+      text-align: center;
+      margin-top: 0;
+      margin-right: 70px;
+      
+    
+    }
+    
+      
+     
+
+    
+
+
+  
+
+
+
+  
+  
+
+
+
+
+
