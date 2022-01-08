@@ -35,4 +35,17 @@ body {
   border: 8px solid #fff;
 }
 
+.navbar ul li:hover {
+  background-color: purple;
+  transition: 1s;
+}
+/*-------------------------------------------featured-items-----------*/
+.featured-items {
+  font-size: 30px;
+}
 
+.productimages img {
+  width: 300px; 
+  height: 300px;
+  object-fit: cover;
+}
