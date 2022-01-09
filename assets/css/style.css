@@ -49,7 +49,12 @@ body {
   height: 300px;
   object-fit: cover;
 }
-
+/*-------------------------------------------About us-----------*/
+.about ul  {
+  max-width:21%;
+    margin: auto;
+    text-align: left;
+}
 /*-------------------------------media queries------------------------*/
 
 @media screen and (max-width: 920px) {
