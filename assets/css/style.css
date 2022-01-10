@@ -63,6 +63,7 @@ body {
   object-fit: cover;
   
 }
+
 /*-------------------------------media queries------------------------*/
 
 @media screen and (max-width: 920px) {
@@ -123,7 +124,5 @@ margin-right: 30px;
 .caption {
   font-size: 8px
 }
-.menu {
-  width: 100%;
-}
+
 }
