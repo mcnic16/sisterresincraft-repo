@@ -66,6 +66,9 @@ body {
   object-fit: cover;
   
 }
+.shop {
+  margin-top: 20px;
+}
 
 /*-------------------------------media queries------------------------*/
 
@@ -132,6 +135,7 @@ body {
   .coasters img {
     width: 60px; 
     height: 60px;
+    
   }
   .items h5 {
     font-size: 10px;
