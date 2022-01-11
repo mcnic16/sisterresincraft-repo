@@ -1,108 +1,130 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+<h1 align="center">Sister Resin Craft</h1>
+[View the live project here.](put live site here}
 
-Welcome mcnic16,
+This is the Website for Sister Resin Crafts. It is designed to be responsive and accessible on a range of devices,  making it easy to navigate for potential customers, and a site that will be devoleped in the future.
+Currently all items are linked to the Etsy shop, where the items can be purchased but will eventually be able to be purchased through this website.
+On the Home page there is a featured items list, this will be updated to show all the new items available, and also reviews will be placed on the site aswell on a new page.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
 
-## Gitpod Reminders
+<h2 align="center"><img src="assets/images/sisfb.jpg" width="200"></h2> 
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+Sreenshots for the site can be found in the assets/sitesscreenshots folder.
 
-`python3 -m http.server`
+## User Experience
 
-A blue button should appear to click: _Make Public_,
+ ### User stories
 
-Another blue button should appear to click: _Open Browser_.
+As I first time visitor I would like: 
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+1. To learn the background of the company.
+2. For the site to be user friendly and easy to navigate.
+3. Reviews and ratings from other customers to be easy to locate.
+4. Learn any further information through the company's social media platforms.
 
-A blue button should appear to click: _Make Public_,
+As a returning customer I would like:
 
-Another blue button should appear to click: _Open Browser_.
+1. I would like to see the website has been updated and what new items are available.
+2. To easily find any promotional offers available including sales.
+3. To be able to contact company directly with any queries or customer orders.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+ ## Design
 
-To log into the Heroku toolbelt CLI:
+- The main colour scheme of the website is purple ombre and white. 
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+## Typography
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+- Sister Resin Craft title was done using a Dancing Script font. The rest of the site was done using the roboto font.
 
-------
+## Technologies Used
 
-## Release History
+Languages:
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+- HTML 5 and CSS
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+ ## Frameworks, Libraries & Programs Used
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+- [Bootstrap 4.1.3:](https://getbootstrap.com/docs/4.1/getting-started/introduction/)
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+Bootstrap was used to assist with the responsiveness with the website.
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+- [Hover.css](https://ianlunn.github.io/Hover/)
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+Hover.css was used on the Navigation items, transitioning to purple.
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+- [Font Awesome](https://fonts.google.com/)
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+ Font Awesome was used on all pages throughout the website 
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+ - [Git](https://git-scm.com/)
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+Git was used for the Gitpod terminal to commit to Git and Push to GitHub.
+ 
+ - [GitHub:](https://github.com/)
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+ GitHub is used to store the projects code after being pushed from Git.
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+ ## Testing
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+ W3C Markup Validator files can be found in assets/w3markup folder.
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+ ## Testing User Stories from User Experience  Section
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+ As I first time visitor I would like: 
 
-------
+1. To learn the background of the company
 
-## FAQ about the uptime script
+On the about page of the website, there is a about us section, detailing about the business and also the policys of the business.
 
-**Why have you added this script?**
+2. For the site to be user friendly and easy to navigate.
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+When users enter the site, they will see a navigation bar in the left hand corner to go to the page of there choice, then below that , the company name and the logo and some featured items which will include new items in the future, and the social-media links in the footer. Any items that are clicked on will link to the corresponding item at the etsy shop. The Navigation bar is on the top of every page.
+All links open up in a new tab.
 
-**How will this affect me?**
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+3. Reviews and ratings from other customers to be easy to locate.
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+There are links for reviews to the etsy shop on the about page, but in the future there will be a new page for reviews.
 
-**So….?**
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+4. Learn any further information through the company's social media platforms
 
-**Can I opt out?**
+The other social platforms that are used are Facebook and Instagram which the links can be located in the footer.
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+As a returning customer I would like:
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
+1. I would like to see the website has been updated and what new items are available.
 
-**Anything more?**
+All new items will be placed on the Hone page, also with every new update a date of the last update will appear in the footer.
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+2. To easily find any promotional offers available including sales.
 
----
+All promotional offers will be placed on the Home page, and that will include sales.
 
-Happy coding!
+
+3. To be able to contact company directly with any queries or customer orders.
+
+At the moment that would be through the Etsy shop, but in the future orders will go through the website with a new review page and also a new seasonal page aswell, i.e. a Christmas page for various items.
+
+
+
+
+
+ 
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
