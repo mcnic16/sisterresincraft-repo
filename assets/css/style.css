@@ -22,17 +22,20 @@ body {
 
 /*-------------------------------------------Navigation Bar and Header-----------*/
 
+.businessname {
+ text-align: center;
+}
 .businessname h1 {
-
   font-family: 'Dancing Script', cursive;
   font-size: 70px;
+  margin-left: 20px;
 }
 
 .logo img {
 
   border-radius: 8px;
   margin-top: 3px;
-  margin-left: -10px;
+  margin-left: 10px;
   border: 8px solid #fff;
 }
 
@@ -68,22 +71,33 @@ body {
 
 @media screen and (max-width: 920px) {
 
+  .navbar {
+    height:40px;
+  }
   .businessname h1 {
   font-size: 30px;
   margin-right: 30px;
+
   }
   .navbar ul li {
+    text-align: center;
     width:100%;
+    padding:5px;
+    font-size: 12px;
+    
+    
   }
-  
-  
+  .navbar ul li {
+    text-align: center;
+  }
+
   .logo img {
     height: 90px;
     width: 90px;
     margin-right: 20px;
   }
   .welcome-message h5{
-    font-size: 8px;
+    font-size: 11px;
     }
     .welcome-message {
       margin-left: 1px;
