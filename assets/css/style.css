@@ -68,62 +68,62 @@ body {
 
 @media screen and (max-width: 920px) {
 
-.businessname h1 {
-font-size: 30px;
-margin-right: 30px;
-}
-.navbar ul li {
-  width:100%;
-}
-
-}
-.logo img {
-  height: 90px;
-  width: 90px;
-  margin-right: 20px;
-}
-.welcome-message h5{
-  font-size: 8px;
+  .businessname h1 {
+  font-size: 30px;
+  margin-right: 30px;
   }
-  .welcome-message {
-    margin-left: 1px;
+  .navbar ul li {
+    width:100%;
   }
-  .featured-items {
-    font-size: 20px;
-    margin-right: 30px;
-}
-.productimages img {
-  width: 100px; 
-  height: 100px;
-  object-fit: cover;
   
-}
-.productimages {
-  font-size: 20px;
-}
-.productimages h5 {
-  font-size: 10px;
-}
-.about p{
-  font-size: 10px;
-}
-.about ul{
-  max-width:100%;
-    margin: auto;
-    text-align: left;
-}
-.about ul li{
-  font-size: 10px;
-}
-.coasters img {
-  width: 60px; 
-  height: 60px;
-}
-.items h5 {
-  font-size: 10px;
-}
-.caption {
-  font-size: 8px
-}
-
-}
+  
+  .logo img {
+    height: 90px;
+    width: 90px;
+    margin-right: 20px;
+  }
+  .welcome-message h5{
+    font-size: 8px;
+    }
+    .welcome-message {
+      margin-left: 1px;
+    }
+    .featured-items {
+      font-size: 20px;
+      margin-right: 30px;
+  }
+  .productimages img {
+    width: 100px; 
+    height: 100px;
+    object-fit: cover;
+    
+  }
+  .productimages {
+    font-size: 20px;
+  }
+  .productimages h5 {
+    font-size: 10px;
+  }
+  .about p{
+    font-size: 10px;
+  }
+  .about ul{
+    max-width:100%;
+      margin: auto;
+      text-align: left;
+  }
+  .about ul li{
+    font-size: 10px;
+  }
+  .coasters img {
+    width: 60px; 
+    height: 60px;
+  }
+  .items h5 {
+    font-size: 10px;
+  }
+  .caption {
+    font-size: 8px
+  }
+  
+  }
