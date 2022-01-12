@@ -1,5 +1,7 @@
 <h1 align="center">Sister Resin Craft</h1>
+
 [View live project](https://mcnic16.github.io/sisterresincraft-repo/shop.html)
+
 
 
 This is the Website for Sister Resin Crafts. It is designed to be responsive and accessible on a range of devices, making it easy to navigate for potential customers with potential developments to be added in the future.
